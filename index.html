@@ -1,0 +1,709 @@
+<title>Seclink-kenya</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1620969910995-4bbe4eaa32c1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YWZyaWNhJTIwc2Nob29sfGVufDB8fDB8fHww");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">SECLINK-KENYA</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> PARENT</a>
+      <a href="login.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEACHER</a>
+      <a href="#courses" class="w3-bar-item w3-button"><i class="fa fa-th"></i> COURSES</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="login.html" onclick="w3_close()" class="w3-bar-item w3-button">PARENT</a>
+  <a href="login.html" onclick="w3_close()" class="w3-bar-item w3-button">TEACHER</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-gray" style="padding:58px">
+    <span class="w3-jumbo w3-hide-small">Learn from  Kenya's best teachers</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Unlock Your Child's Full Potential with Seclink Learning</span><br>
+    <span class="w3-large">Seclink-Kenya brings the best high school teachers home <br>and empowers students to excel in exams and beyond.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-black w3-large" style="padding:24px 58px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT SECLINK-KENYA</h3>
+  <p class="w3-center w3-large">Key features of our website</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Our system is designed to be responsive, adapting to various devices and ensuring seamless access to educational resources and communication tools from anywhere. 
+        Whether on a mobile device or desktop, SecLink Kenya guarantees a smooth experience for all users—students, teachers, and parents.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>We are driven by a passion for enhancing the learning experience in Kenyan secondary schools. SecLink Kenya is built with a commitment to making education more accessible, 
+        ensuring that students have the tools they need to succeed, and fostering strong communication between all education stakeholders.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>The SecLink Kenya system is crafted with a user-friendly design, focusing on simplicity and efficiency. 
+        From students accessing learning materials to teachers updating parents, the platform’s intuitive interface 
+        ensures that everyone can navigate with ease and confidence.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>SecLink Kenya offers ongoing support to all users. Teachers, parents, and students can rely on the system for real-time updates and seamless communication. 
+        Our support team is always available to ensure that the platform remains a reliable hub for academic progress and collaboration.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Why People Choose Us Over Other Platforms" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <!-- Top Section: Instructors, Live Classes, Support -->
+
+  <style>
+    .feature-icon {
+      width: 50px; 
+      height: 50px;
+      margin-bottom: 10px;
+    }
+    .w3-card {
+      text-align: center;
+    }
+  </style>
+
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-white">
+        <img src="images/00.jpg" alt="Best Instructors Icon" class="feature-icon">
+        <h4><b>Best Instructors</b></h4>
+        <p>We have highly skilled & highly experienced instructors around the globe.</p>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-white">
+        <img src="images/webinar_17116289.png" alt="Live Class Icon" class="feature-icon">
+        <h4><b>Live Class</b></h4>
+        <p>We take live classes to give our students the best education.</p>
+      </div>
+    </div>
+
+    <div class="w3-third">
+      <div class="w3-card w3-padding w3-white">
+        <img src="images/funding_6.svg" alt="Support Icon" class="feature-icon">
+        <h4><b>1 to 1 Support</b></h4>
+        <p>We give our students the best support 24/7.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Trusted Partners Section -->
+  <div class="w3-center w3-padding-32">
+    <h4>Our Trusted Partners</h4>
+    <p>We are proud to work with these esteemed universities and organizations:</p>
+    <div>
+      
+      <img src="images/safaricom.png" alt="University of Sydney" style="width:10%;">
+      <img src="images/equity.png" alt="University of Sydney" style="width:10%;">
+      <img src="images/microsoft.png" alt="University of Sydney" style="width:10%;">
+      <img src="images/logo.png" alt="University of Sydney" style="width:10%;">
+      <img src="images/adrian.png" alt="Macquarie University" style="width:10%;">
+      <img src="images/andela.png" alt="Emory University" style="width:10%;">
+      <img src="images/cybertek.png" alt="Northwestern University" style="width:10%;">
+      <img src="images/pwc.png" alt="University of Bristol" style="width:10%;">
+      <img src="images/little.png" alt="University of Bristol" style="width:10%;">
+    </div>
+  </div>
+
+  <!-- Popular Courses Section -->
+
+  
+ <!-- HTML: Popular Courses Section -->
+<div class="w3-container w3-padding-64" id="courses">
+  <h3 class="w3-center">Our Popular Lessons</h3>
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <div class="w3-card w3-white w3-padding">
+        <img src="images/web-design-course.jpg" alt="Web Design" class="course-img">
+        <h4>Excel in Math and Unlock New Opportunities in 3 Months!</h4>
+        <p></p>
+        <a href="#" class="w3-button w3-yellow">Enroll Now</a>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card w3-white w3-padding">
+        <img src="images/ui-ux-course.jpg" alt="UI/UX Design" class="course-img">
+        <h4>Discover the Wonders of Science in Just 3 Months!</h4>
+        <p></p>
+        <a href="#" class="w3-button w3-yellow">Enroll Now</a>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card w3-white w3-padding">
+        <img src="images/coding-course.jpg" alt="Coding Course" class="course-img">
+        <h4>Enhance Your English Skills and Boost Your Confidence in 3 Months!</h4>
+        <p></p>
+        <a href="#" class="w3-button w3-yellow">Enroll Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CSS: Styling for Uniform Image Size -->
+<style>
+.course-img {
+  width: 100%;       
+  height: 450px;     
+  object-fit: cover; 
+}
+</style>
+
+  <!-- Original Information Section -->
+  <div class="w3-row-padding" style="background-color: #f8f8f2;">
+    <!-- Section Title -->
+    <div class="w3-col w12">
+      <h2>Why People Choose Us Over Other Platforms</h2>
+      <p>At SecLink, we offer a user-friendly platform that bridges the gap in education by providing easy access to learning materials and seamless communication between teachers and students. 
+        Our system ensures a more connected, transparent, and efficient learning experience, making education management simpler and more effective for schools across Kenya.</p>
+    </div>
+  
+    <!-- Left Section: Images -->
+    <div class="w3-col m6">
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <img class="w3-image w3-round-large" src="images/student-school-kenya.jpg" alt="Image 1" style="width: 100%; margin-bottom: 16px;">
+        </div>
+      </div>
+    </div>
+  
+    <!-- Right Section: Feature Cards -->
+    <div class="w3-col m6">
+      <div class="w3-row-padding">
+        <!-- Card 1 -->
+        <div class="w3-col m6">
+          <div class="w3-card w3-padding w3-round-large" style="background-color: #ffffff;">
+            <img src="images/icon01.png" alt="Icon 1" style="width: 40px;">
+            <h4>Best Support System</h4>
+            <p>SecLink offers a reliable support system that ensures smooth communication between teachers, and students, 
+              fostering a seamless and connected educational experience.</p>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div class="w3-col m6">
+          <div class="w3-card w3-padding w3-round-large" style="background-color: #ffffff;">
+            <img src="images/icon2.png" alt="Icon 2" style="width: 40px;">
+            <h4>Best Mentors</h4>
+            <p>SecLink connects students with dedicated teachers who provide guidance and support, ensuring personalized learning and fostering academic growth.</p>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div class="w3-col m6" style="margin-top: 16px;">
+          <div class="w3-card w3-padding w3-round-large" style="background-color: #ffffff;">
+            <img src="images/icon3.png" alt="Icon 3" style="width: 40px;">
+            <h4>3000+ Past Papers</h4>
+            <p>SecLink offers a wide range of academic materials, including past papers and notes, ensuring students
+               have access to diverse resources for self-paced learning and academic success.</p>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div class="w3-col m6" style="margin-top: 16px;">
+          <div class="w3-card w3-padding w3-round-large" style="background-color: #ffffff;">
+            <img src="images/icon4.png" alt="Icon 4" style="width: 40px;">
+            <h4>Best Curriculum</h4>
+            <p>SecLink provides a globally recognized curriculum, supporting students from diverse backgrounds with 
+               high-quality resources for academic excellence worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+<!-- Meet Our Highly Skilled Mentors Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">Meet our highly skilled Mentors</h3>
+  <p class="w3-center">Our skilled and friendly mentors are here to help you every step of the way! If you ever run into a challenge, 
+    don’t worry—they’ve got your back. With one-on-one support, you’ll get the guidance you need to succeed in your learning journey!</p>
+  
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-quarter">
+      <div class="w3-card w3-hover-shadow">
+        <img src="images/elorm-french-teacher.jpg" alt="Michele Wakanja" class="mentor-image">
+        <div class="w3-container">
+          <h5>Michele Wakanja</h5>
+          <p>Mathematics & Biology </p>
+          <p><i class="fa fa-graduation-cap"></i> 3 Courses</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-card w3-hover-shadow">
+        <img src="images/Thomas-Koketso_Maseko-500x500.jpg" alt="Austin Nderitu" class="mentor-image">
+        <div class="w3-container">
+          <h5>Austin Nderitu</h5>
+          <p>English & Literature</p>
+          <p><i class="fa fa-graduation-cap"></i> 6 Courses</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-card w3-hover-shadow">
+        <img src="images/istockphoto-1152603187-170667a.jpg" alt="Philip Karanja" class="mentor-image">
+        <div class="w3-container">
+          <h5>Philip Karanja</h5>
+          <p>Physics & Business Studies</p>
+          <p><i class="fa fa-graduation-cap"></i> 6 Courses</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-quarter">
+      <div class="w3-card w3-hover-shadow">
+        <img src="images/ChuchInRock_302.jpg" alt="William Apito" class="mentor-image">
+        <div class="w3-container">
+          <h5>William Apito</h5>
+          <p>computer Studies</p>
+          <p><i class="fa fa-graduation-cap"></i> 6 Courses</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+    .mentor-image {
+      width: 100%;
+      height: 550px;
+      object-fit: cover; 
+    }
+  </style>
+  
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">255+</span>
+    <br>Students
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">200+</span>
+    <br>Happy Parents
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- feedback Section -->
+
+<div class="w3-container" style="padding:128px 16px;">
+  <h3 class="w3-center">Our Students Feedback</h3>
+  <p class="w3-center w3-large">Our Students tell stories and are impressed with our services</p>
+
+  <div class="w3-row-padding" style="margin-top:74px">
+    <div class="w3-col l4 m6">
+      <div class="w3-card w3-padding w3-light w3-yellow">
+        <img src="images/0022.png" alt="hillary onyango" class="w3-circle" style="width:200px;">
+        <h3>"Best Course of my life"</h3>
+        <p>Discovering my true potential has been an incredible journey, with invaluable guidance shaping my future.</p>
+        <p><strong>Hillary Onyango</strong><br>Student</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6">
+      <div class="w3-card w3-padding w3-yellow">
+        <img src="images/5.jpeg" alt="Juliet Njeri" class="w3-circle" style="width:200px;">
+        <h3>"Best mentors"</h3>
+        <p>I truly appreciate the great insights and guidance provided by our experienced mentors in the field! 
+          Their expertise has been invaluable in enhancing our understanding and skills</p>
+        <p><strong>Juliet Njeri</strong><br>Student</p>
+      </div>
+    </div>
+    <div class="w3-col l4 m6">
+      <div class="w3-card w3-padding w3-yellow">
+        <img src="images/Nairobi-Home-School-online-6-1.jpg" alt="Alvin Anderson" class="w3-circle" style="width:200px;">
+        <h3>"Quality Course"</h3>
+        <p>This course offers valuable insights and skills that are crucial for professional growth. Highly recommend!</p>
+        <p><strong>Alvin Anderson</strong><br>Student</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-center w3-section">
+    <button class="w3-button w3-black w3-round">⬅️</button>
+    <button class="w3-button w3-black w3-round">➡️</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="images/img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-padding-64" style="background-color: #f8f8f2; text-align: center;">
+  <!-- Title Section -->
+  <h2>Download our app from App-store for free</h2>
+  <p>Empower learning with SecLink Kenya. Our app connects students, teachers, 
+    and parents to enhance communication, access resources, and track academic progress effortlessly.</p>
+
+  <!-- Download Button -->
+  <a href="#" class="w3-button w3-black w3-round-large" style="padding: 12px 24px; font-size: 18px;">
+    <i class="fa fa-apple" style="margin-right: 8px;"></i> Download Now
+  </a>
+</div>
+
+
+<!-- Pricing Section -->
+
+<div class="container">
+  <h2>Make Learning Fun</h2>
+  <p class="description">Engage students with assignments, notes, and revision material on mobile.</p>
+
+  <div class="pricing-row">
+    <!-- Column 1 -->
+    <div class="pricing-column">
+      <ul>
+        <li>Engage Students</li>
+        <li><b>Access & track</b> students’ engagement with assignments and notes.</li>
+        <li><b>Monitor progress</b> on mobile easily.</li>
+        <li><b>Track</b> performance insights.</li>
+        <li>
+          <button>Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="pricing-column">
+      <ul>
+        <li>Access KCSE Content</li>
+        <li><b>Approved materials</b> for teaching.</li>
+        <li><b>Supplementary resources</b> for better learning.</li>
+        <li><b>Access from any device.</b></li>
+        <li>
+          <button>Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="pricing-column">
+      <ul>
+        <li>Track Progress</li>
+        <li><b>Monitor general</b> learning progress of students.</li>
+        <li><b>Receive notifications</b> for specific needs.</li>
+        <li><b>Mobile-friendly analytics.</b></li>
+        <li>
+          <button>Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="pricing-column">
+      <ul>
+        <li>Collaborate with Teachers</li>
+        <li><b>Share lesson plans</b> and resources with colleagues.</li>
+        <li><b>Collaborate</b> on student performance insights.</li>
+        <li><b>Cross-classroom</b> discussions and tracking.</li>
+        <li>
+          <button>Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Column 5 -->
+    <div class="pricing-column">
+      <ul>
+        <li>Personalized Learning</li>
+        <li><b>Adaptive content</b> tailored to student needs.</li>
+        <li><b>Track individual learning</b> paths.</li>
+        <li><b>Suggestions</b> for improvement and engagement.</li>
+        <li>
+          <button>Learn More</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Nairobi, Kenya</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +254 717215525</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@seclinkkenya.com</p>
+      <br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:510px;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+ 
+<style>
+ 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #002e40; 
+  color: white;
+}
+
+.container {
+  padding: 128px 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+h2 {
+  font-size: 3.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-weight: bold; 
+}
+
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  font-weight: bold; 
+}
+
+
+.description {
+  font-size: 1.25em;
+  margin-bottom: 64px;
+  padding-left: 20px;
+}
+
+/* Card Layout (Row & Column) */
+.pricing-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px; 
+}
+
+.pricing-column {
+  width: 19%; 
+  padding: 10px; 
+  box-sizing: border-box;
+}
+
+/* Card Styles */
+ul {
+  list-style-type: none;
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  color: black; 
+  min-height: 320px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Title of each card (top section) */
+ul li:first-child {
+  background-color: #002e40; 
+  color: white; 
+  padding: 32px; 
+  font-size: 1.5em; 
+  text-align: center;
+}
+
+/* General styling for list items */
+ul li {
+  padding: 16px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  background-color: #28a745; 
+  color: white; 
+  padding: 12px 24px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #218838; 
+}
+
+/* Responsive Layout for smaller screens */
+@media (max-width: 768px) {
+  .pricing-column {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+}
+
+
+</style>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+function loadContent(contentFile) {
+            fetch(contentFile)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    document.getElementById('contentArea').innerHTML = data;
+                    document.getElementById('contentArea').classList.add('active');
+                })
+                .catch(error => console.error('There was a problem with the fetch operation:', error));
+        }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+
+</body>
+</html>
